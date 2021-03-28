@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ERP MAKERS</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+	<nav class="navbar">
+		<div class="content">
+			<div class="logo"><a href="#">COMPANY</a></div>
+			<ul class="menu-list">
+				<div class="icon cancel-btn">
+				<i class="fa fa-times"></i>
+			</div>
+				<li><a class="active" href="#home">HOME</a></li>
+				<li><a  href="#service">SERVICES</a></li>
+				<li><a href="#plan">PLANS</a></li>
+				<li><a href="#about">OUR TEAM</a></li>
+				<li><a href="#">ABOUT US</a></li>
+			</ul>
+			<div class="icon menu-btn">
+				<i class="fa fa-bars"></i>
+			</div>
+		</div>
+	</nav>
+	<h1 style="position: static;">hello</h1>
+	<script type="text/javascript">
+		const navbar=document.querySelector(".menu-list");
+		const menuBtn=document.querySelector(".menu-btn");
+		const cancelBtn=document.querySelector(".cancel-btn");
+		menuBtn.onclick=()=>{
+			navbar.classList.add("active");
+			menuBtn.classList.add("hide");
+		}
+		cancelBtn.onclick=()=>{
+			navbar.classList.remove("active");
+			menuBtn.classList.remove("hide");
+		}
+		window.onscroll = ()=>{
+      this.scrollY > 2 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+	</script>
+	<div class="home-intro" id="home">
+		<div class="intro-left">
+			<h1 class="head1">
+				Automate your Business
+			</h1>
+			<h2 class="head2">
+				With Us
+			</h2>
+			<p class="para1">
+				Are you an SME or a fast-growing business and still relying on excel reports & multiple systems to manage your daily challenges? Well, it’s time for you to consider erp software for small business. Run your growing business on the most trusted, secure and complete ERP software in the world.
+
+
+			</p>
+		</div>
+		<div class="intro-right">
+			<img src="home1.png" style="width: 100%;height: auto;display: block;">
+		</div>
+	</div>
+
+
+	<div class="services" id="service">
+		<h1 class="head1">ERP Software for your business</h1>
+		<h3 class="head2">Handle all your business needs with one powerful ERP solution</h3>
+		<div class="container">
+		<div class="card">
+			<div class="imgbx">
+				<img src="img1.jpg">
+			</div>
+			<div class="content">
+				<h2>Cost Saving</h2>
+				<p> No Service Charges
+					No upfront hardware and software cost
+					Lesser operating expense on subscription
+					No additional maintenance & support cost
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgbx">
+				<img src="img2.jpg">
+			</div>
+			<div class="content">
+				<h2>Complete Security</h2>
+				<p> 
+					Extremely secured environment
+					Disaster recovery facility running 24×7
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgbx">
+				<img src="img3.jpg">
+			</div>
+			<div class="content">
+				<h2>Flexibility & Ease of Access to Service</h2>
+				<p> 
+					Access from Desktop, Laptop or Mobile devices; Anytime, Anywhere
+					Need only web browser and network connection
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgbx">
+				<img src="img4.jpg">
+			</div>
+			<div class="content">
+				<h2> Scalability</h2>
+				<p>
+					Increase or decrease number of licenses whenever required
+					Easy switch to advance packages
+					Easy start-up with a minimum number of users
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgbx">
+				<img src="img5.jpg">
+			</div>
+			<div class="content">
+				<h2>Peace of Mind Ensured</h2>
+				<p> 
+					No need to maintain IT assets of higher technical specifications
+					System is always current, up-to-date, running and available
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="imgbx">
+				<img style="height: 20rem;" src="img6.jfif">
+			</div>
+			<div class="content">
+				<h2>Faster Time to Value</h2>
+				<p> 
+					Realize ROI faster
+					Improve efficiency
+					More productive staff
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="fill">
+	</div>
+	<div class="plans" id="plan">
+		<h1 class="head1">Here Are Some Plans</h1>
+		<h3 class="head2">Our Plans will help you growing your business cost effectively.</h3>
+			<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+    	<div class="card">
+		<div class="card-img">
+			<img src="img21.jpg">
+			<ul class="card-tag">
+				<li>Price:</li>
+				
+			</ul>
+		</div>
+		<div class="card-info">
+			<h4 class="card-title">WorksProvided:1</h4>
+			<p class="card-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+			<a href="" class="card-btn">ReadMore</a>
+			
+		</div>
+	</div>
+    </div>
+    <div class="swiper-slide"><div class="card">
+		<div class="card-img">
+			<img src="img22.jpg">
+			<ul class="card-tag">
+				<li>Price:</li>
+				
+			</ul>
+		</div>
+		<div class="card-info">
+			<h4 class="card-title">WorksProvided:2</h4>
+			<p class="card-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+			<a href="" class="card-btn">ReadMore</a>
+			
+		</div>
+	</div></div>
+    <div class="swiper-slide">
+    	<div class="card">
+		<div class="card-img">
+			<img src="img23.jpg">
+			<ul class="card-tag">
+				<li>Price:</li>
+				
+			</ul>
+		</div>
+		<div class="card-info">
+			<h4 class="card-title">WorksProvided:3</h4>
+			<p class="card-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+			<a href="" class="card-btn">ReadMore</a>
+			
+		</div>
+		</div>
+    </div>
+    <div class="swiper-slide">
+    	<div class="card">
+		<div class="card-img">
+			<img src="img24.jpg">
+			<ul class="card-tag">
+				<li>Price:</li>
+				
+			</ul>
+		</div>
+		<div class="card-info">
+			<h4 class="card-title">WorksProvided:4</h4>
+			<p class="card-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+			<a href="" class="card-btn">ReadMore</a>
+			
+		</div>
+	</div>
+    </div>
+    <div class="swiper-slide">
+    	<div class="card">
+		<div class="card-img">
+			<img src="img25.jpg">
+			<ul class="card-tag">
+				<li>Price:</li>
+				
+			</ul>
+		</div>
+		<div class="card-info">
+			<h4 class="card-title">WorksProvided:5</h4>
+			<p class="card-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+			<a href="" class="card-btn">ReadMore</a>
+			
+		</div>
+	</div>
+    </div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView:3,
+  spaceBetween:38,
+
+  // Responsive breakpoints
+  breakpoints: {
+  	// when window width is >= 200px
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 10
+    },
+    // when window width is >= 320px
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+</script>	
+</div>
+
+<div class="about-us" id="about">
+	<h1 class="about-us-head">Our Team</h1>
+	<div class="founder-container">
+	<div class="founder">
+		<div class="founder-img">
+			<img src="img31.png">
+		</div>
+		<div class="founder-content">
+			<h2 class="founder-name">FounderName</h2>
+			<p class="founder-disc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore</p>
+			<div class="founder-social-media">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+			</div>
+			<a href="#" class="founder-contact">Contact</a>
+		</div>
+		
+	</div>
+	<div class="founder">
+		<div class="founder-img">
+			<img src="img32.jpg">
+		</div>
+		<div class="founder-content">
+			<h2 class="founder-name">FounderName</h2>
+			<p class="founder-disc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore</p>
+			<div class="founder-social-media">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+			</div>
+			<a href="#"  class="founder-contact">Contact</a>
+		</div>
+		
+	</div>
+	<div class="founder">
+		<div class="founder-img">
+			<img src="img33.png">
+		</div>
+		<div class="founder-content">
+			<h2 class="founder-name">FounderName</h2>
+			<p class="founder-disc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore</p>
+			<div class="founder-social-media">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+			</div>
+			<a href="#"  class="founder-contact">Contact</a>
+		</div>
+		
+	</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<div class="footer" id="footer">
+	<p class="footer__title">Company Name</p>
+		<p class="footer-personal"><b>Email: </b>xyz@gmail.com</p>
+		<p class="footer-personal"><b>Phone No:</b>+91-123456789</p>
+            <div class="footer__social">
+                <a href="" class="social_icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="" class="social_icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="" class="social_icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+     <p class="footer-p"> Nice to see you...</p>
+	
+</div>
+
+
+</body>
+</html>
